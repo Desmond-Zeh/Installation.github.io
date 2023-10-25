@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-uk'>
+<!--My second html code page -->
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width"/>
+<meta name="author"
+content="Desmond Zeh"/>
+<meta name="Description"
+content="This page covers most of the information required for the installation and operation of a metering system."/> 
+<title>Energy metering systems</title>
+<img src="https://ceacmaroc.com/img/comp4.png" height="100" width="100" alt="ITRON SL7000 energy meter"id="SL7000"/>
+<img src="https://www.itron.com/-/media/feature/products/ace-sparklet/images/acesparklet2jpg.jpg" height="100" width="100" alt="ITRON RS232 modem" id="RS232" />
+<link href="https://fonts.googleapis.com/css2?family=Gelasio:ital@1&family=Lisu+Bosa:ital@1&family=Old+Standard+TT:ital@1&display=swap" rel="stylesheet"> 
+<link href="styles/style.css" rel="stylesheet"/>
+</head>
+<body>
+<h1><strong>By Desmond</strong></h1>
+<p><strong>INDIRECT CONNECTION</strong></p>
+<h2<strong>Preparatory phase</strong></h2>
+<p>
+Make available the following material items in relation to the <strong> installation installed power, distance from the sensor points(Current transformers) to the meter, the network stability in the concerned location</strong>:</p>
+<ul>
+<li>ITRON SL7000 energy meter (current version).</li>
+<li>Current transformers while taking into consideration the following CT sizing criteria:</li>
+<p>
+<ol>
+<li>For metering systems where the <strong>distance between the CT and the energy meter is above 10m</strong>, current transformers with a <strong>secondary current of 1A</strong> should be selected.</li>
+<li>If the above point is vice versa, then current transformers with a <strong>secondary current of 5A</strong> should be selected.</li>
+</ol>
+<p>For proper sizing of Current transformers for metering systems, check out <strong>my CT sizing at:</strong><a href="https://desmond-zeh.github.io/zoambosezeh.github.io><strong>CT sizing for LV metering </strong></a> </p>
+</p>
+</li>
+<li>ITRON RS232 GPS/GPRS MODEM.</li>
+<li>6mm2 copper cables for the current circuits of the meter.</li>
+<li>2.5mm2 copper cables for the voltage circuits of the meter.</li>
+<li>Circuit breakers (iC60N C2A 3P+N) for the protection of the voltage circuits of the meter.</li>
+<li>Screws and nuts of sizes <strong> 4mmx16mm, 4mmx20mm and 4mmx25mm</strong> to mount the meter on its carbinet.</li>
+<li>Copper cable lugs (flat and round) of sizes <strong>2.5-6, 6-6(PGL and PGC)</strong>.</li>
+<li>Cable tie clamps (short and long).</li>
+<li>Low Voltage surge protectors.</li>
+<li>Low Voltage voltage transformer(optional).</li>
+<p> Voltage transformers are not really required in a LV metering system since our <strong>ITRON SL7000</strong> energy meter can operate with LV line voltages ranging from 100V-to-480V. The voltage instrument transformer is only needed to maintain a pretty stable voltage at the inputs of the energy meter, and as a result protecting the meter from voltage tips across the primary with their saturation ability. For more information on sizing of voltage instrument  transformer for a LV metering system, check out <strong>my VT sizing at:</strong><a href="https://desmond-zeh.github.io/zoambosezeh.github.io/B. VOLTAGE TRNASFORMER/"><strong>VT sizing for LV metering</strong></a>  </p>
+<li>Connecting boxes.</li>
+<li>Complete electrician toolkit.</li>
+</ul>
+<h3><strong>Installation and Connection phase</strong></h3>
+<p>
+While onsite, proceed with the installation of the various <strong> metering components </strong> as follows:</p>
+<ol>
+<li>Cease energy from the working zone. This can be achieve by <strong>opening the main circuit breaker</strong> protecting that zone.</li>
+<li>Ensure that the working zone is completely off service by performing the VAV (Voltage Absence Verification) using a suitable measuring tool.</li>
+<p><strong>For the Current transformers' installations</strong></p>
+<li>Identify the main current carrying cables powering the installation.</li>
+<li>Disconnect the current carrying conductors at the suitable carbinet or point closer to the points where the CT will be installed.</li>
+<li>Insert the current carrying conductors through the respective current transformers and wrap the CT fix with the cable tie clamps or using their respective mounting screw (in case of a bar type CT).</li>
+<li>Reconnect the current carrying conductors previously disconnected to their respective points.</li>
+<li>Measure the <strong>distance</strong> between the CT and the point where the meter and connection boxes will be mounted and cut the <strong>6mm2 current cables</strong> in relation to the distance measured.</li>
+<li>Insert cable lugs (PGC 6-6 or PGL 6-6)using a <strong>crimping plier</strong> onto the both ends of the measured cables.</li>
+<li>Connect one end of the current cables to the secondary terminals (S1 and S2) of the CT and ensure that they're well tighted.</li>
+<li>Verify the grounding system of the installation and ensure that its resistance falls within the acceptable limit knowing that this values depending on the moisture level of the zone where your found yourself.But in most cases, any value below 8Ω is acceptable.</li>
+<li>Ground the Current Transformers at the S2 terminals.</li>
+<li>Run the current cables on cable trays or walls of the installation using cable tie clamps, right up to the point where the meter and connection boxes will be mounted.</li>
+<p><strong>For the energy meter and connection boxes' installations</strong></p>
+<li>Choose a suitable position for the installation of the meter and connection boxes, while taking into consideration the following points:
+<p>
+<ol>
+<li>SL7000 meters are certified for indoor use only. Do not install meters outdoors unless they are housed in an enclosure which can maintain the specified environmental requirements.</li>
+<li>Meters installed should be safe and void of unwanted attempts. Hence, install meters at a height (>1.5m) from floor level to prevent childred and water from having access to.</li>
+<li>Digital meters habors many fragile semiconductor components  such as microcontroller, logic gates, LEDs, Capacitors,etc, which can't withstands too much vibrations. Hence, they should be installed in areas with less vibration.</li>
+<li>Digital meters can operate at temperaures ranging from <strong>-40°C to 75°C</strong>, but a suitable operating temperature is between <strong>20°C to 35°C</strong>.</li>
+<li> Also take into account the level of humidity(<75% and max:95%).</li>
+</ol>
+</p>
+<li>Open the terminal plastic cover of the meter and mount the energy meter and connection boxes at their respective spots on the carbinet using screws or bolts and nuts and connect the current and voltage cables to it as follows:</li>
+<p><strong>For Current Cables' connections</strong></p>
+<p>Connect the other ends of the current cables (S1 and S2) to the ITRON SL7000 meter passing through the connection boxes while taking into account the following points:</p>
+<p><strong><spam style="color:yellow">For Asymmetrical connection(VDE)</spam></strong></p>
+<p>
+<ul>
+<li>The current cable leaving <strong>terminal S1</strong> of the CT installed on phase 1 of the current carrying conductors is connected to <strong>terminal 1</strong> on the meter.</li>
+<li>The current cable leaving <strong>terminal S2</strong> of the CT installed on phase 1 of the current carrying conductors is connected to <strong>terminal 3</strong> on the meter.</li>
+<li>The current cable leaving <strong>terminal S1</strong> of the CT installed on phase 2 of the current carrying conductors is connected to <strong>terminal 4</strong> on the meter.</li>
+<li>The current cable leaving <strong>terminal S2</strong> of the CT installed on phase 2 of the current carrying conductors is connected to <strong>terminal 6</strong> on the meter.</li>
+<li>The current cable leaving <strong>terminal S1</strong> of the CT installed on phase 3 of the current carrying conductors is connected to <strong>terminal 7</strong> on the meter.</li>
+<li>The current cable leaving <strong>terminal S2</strong> of the CT installed on phase 3 of the current carrying conductors is connected to <strong>terminal 9</strong> on the meter.</li>
+</ul>
+</p>
+<p><strong><spam style="color:yellow">For Symmetrical connection(USE)</spam></strong></p>
+<p>
+<ul>
+<li>The current cable leaving <strong>terminal S1</strong> of the CT installed on phase 1 of the current carrying conductors is connected to <strong>terminal 1</strong> on the meter.</li>
+<li>The current cable leaving <strong>terminal S2</strong> of the CT installed on phase 1 of the current carrying conductors is connected to <strong>terminal 11</strong> on the meter.</li>
+<li>The current cable leaving <strong>terminal S1</strong> of the CT installed on phase 2 of the current carrying conductors is connected to <strong>terminal 3</strong> on the meter.</li>
+<li>The current cable leaving <strong>terminal S2</strong> of the CT installed on phase 2 of the current carrying conductors is connected to <strong>terminal 9</strong> on the meter.</li>
+<li>The current cable leaving <strong>terminal S1</strong> of the CT installed on phase 3 of the current carrying conductors is connected to <strong>terminal 5</strong> on the meter.</li>
+<li>The current cable leaving <strong>terminal S2</strong> of the CT installed on phase 3 of the current carrying conductors is connected to <strong>terminal 8</strong> on the meter.</li>
+</ul>
+</p>
+<p><strong>For Voltage Cables' Connections</strong></p>
+<ul>
+<li>Install the Voltage instrument transformer at suitable points.</li>
+<li>Install the <strong>Circuit breaker (iC60N C2A 3P+N)</strong> at a suitable point on the same carbinet as the meter.</li>
+<li>Measure the distance between the circuit breaker and the Voltage transformers, and cut the 2.5mm2 voltage cables according to the distance measured.</li>
+<li>Insert flat copper cable lugs (PGL 2.5-6) onto both ends of the measured cables.</li>
+<li>Connect one end of the voltage cables to the secondary terminals of the voltage transformers.</li>
+<li>Ground the terminals S2 and P2 of the VT and ensure that they are properly grounded.</li>
+<li>Connect the other end of the voltage cables to the protective CB, and taking into account the following points:</li>
+<p>
+<ol>
+<li>The voltage cable leaving <strong>terminal S1</strong> of the VT installed on phase 1 of the current carrying conductors is connected to <strong>terminal 1</strong> on the protective CB.</li>
+<li>The voltage cable leaving <strong>terminal S1</strong> of the VT installed on phase 2 of the current carrying conductors is connected to <strong>terminal 2</strong> on the protective CB.</li>
+<li>The voltage cable leaving <strong>terminal S1</strong> of the VT installed on phase 3 of the current carrying conductors is connected to <strong>terminal 3</strong> on the protective CB.</li>
+<li>The voltage cable leaving <strong>terminal S2</strong> of the three VT installed on the current carrying conductors is connected to <strong>terminal N</strong> on the protective CB.</li>
+</ol></p>
+<li>Measure the distance between the circuit breaker and the energy meter, and cut the 2.5mm2 voltage cables according to the distance measured.</li>
+<li>Insert flat copper cable lugs (PGL 2.5-6) onto both ends of the measured cables.</li>
+<li>Connect the other end of the voltage cables to the meter passing through the connection box, and taking into account the following points:</li>
+<p><strong><spam style="color:yellow">For Asymmetrical connection(VDE)</spam></strong></p>
+<p>
+<ol>
+<li>The voltage cable leaving <strong>terminal 1</strong> of the CB is connected to <strong>terminal 2</strong> on the meter.</li>
+<li>The voltage cable leaving <strong>terminal 2</strong> of the CB is connected to <strong>terminal 5</strong> on the meter.</li>
+<li>The voltage cable leaving <strong>terminal 3</strong> of the CB is connected to <strong>terminal 8</strong> on the meter.</li>
+<li>The voltage cable leaving <strong>terminal N</strong> of the CB is connected to <strong>terminal 11</strong> on the meter.</li>
+</ol>
+</p>
+<p><strong><spam style="color:yellow">For Symmetrical connection(USE)</spam></strong></p>
+<p>
+<ol>
+<li>The voltage cable leaving <strong>terminal 1</strong> of the CB is connected to <strong>terminal 2</strong> on the meter.</li>
+<li>The voltage cable leaving <strong>terminal 2</strong> of the CB is connected to <strong>terminal 4</strong> on the meter.</li>
+<li>The voltage cable leaving <strong>terminal 3</strong> of the CB is connected to <strong>terminal 6</strong> on the meter.</li>
+<li>The voltage cable leaving <strong>terminal N</strong> of the CB is connected to <strong>terminal 7</strong> on the meter.</li>
+</ol>
+</p>
+</ul>
+<p><strong>For distance communications with the meter</strong></p>
+<li>Insert the proper <strong>modem operator(MTN or ORANGE)</strong> into the modem.</li>
+<li>Interface the modem with the meter using the appropriate port(client or company).</li>
+<h4><strong>Final Checks and Configuration phase</strong></h4>
+<li>Open the cover of the <strong>lithium battery</strong> mounted on the meter facial, insert the battery female port into the male port on the meter facial and close the cover back gently.</li> 
+<li>Verify and ensure that both the voltage and current cables are properly connected to their respective terminals.</li>
+<li>Verify and ensure that the CT are properly grounded at the S2 terminals.</li>
+<li>Verify and ensure that the CT are properly installed with reference to the P1 and P2 terminals.</li>
+<li>Verify and ensure that the current carrying conductors are properly connected to their respective points.</li>
+<li>Verify and ensure that the CB protecting the voltage circuit of the meter is open.</li>
+<li>Verify and ensure that the correct meter type with the right identification number has been installed for this client at this metering
+point.</li>
+<li>The battery has been correctly installed.</li>
+<li>Power the installation by closing its main CB that was previously opened.</li>
+<li>Close the CB protecting the voltage circuit of the meter and verify if the meter is powered.Check out the following points</li>
+<ul>
+<li>If the meter was not configured prior to installation, verify and ensure that the meter is in the <strong>STOP</strong> mode and then proceed with its configuration.</li>
+<li>If the meter was configured prior to installation, verify and ensure that the meter is in the <strong>START</strong> mode.</li>
+</ul>
+<li>Verify if all the three voltage phases are displayed on the meter LCD display by looking at the sequence icons(123) and making sure that non of this icon blinks.</li>
+<li>Verify and ensure that the quadrant icon and the battery icons found on the LCD display are not flashing.</li>
+<li>Connect the <strong>optical cable</strong> to the <strong>Infrared communication port</strong> on the meter.</li>
+<li>Login into the <strong>ACE pilot software</strong> using your login credentials.</li>
+<li>Read the program from the computer using the <strong>ACE PILOT software</strong> and write it into the meter, while verifying the following programmable parameters:</li>
+<ul>
+<li>Make surre that the <strong>General Ressources</strong> are set for a SL7000 with: Meter Type SL761, FW Version x.xx and
+Meter connection Transformer.</li>
+<li>Make sure that the <strong>Metrology Connection parameters</strong> are set to a CT ratio .../..A and a VT ratio .../...V, which correspond to the physical ratios of the CTs and VTs installed.</li>
+<li>Make sure that the <strong>Metrology/Network parameters</strong> are set to 12 A Max Current.The Maximum Usual current may be set to a lower value depending on the application.</li>
+<li>Make sure the current rating is set to 10A.</li>
+<li>Make sure the <strong>Metrology/Connection type</strong> are set as per physical connection (3 wires or 4 wires).</li>
+</ul>
+<li>Apply a load to the meter and check that the metrology LED (active - kWh) starts to flash.The flash rate is proportional to the load.</li>
+<li>Verify the following electrical parameters:</li>
+<ul>
+<li>Read the Total Energy Registers (TER) values,</li>
+<li>Read all instantaneous values,</li>
+<li>Read the meter status values and its configuration,</li>
+<li>Read and erase all active non-fatal alarms.</li>
+<li>Extract the phasor diagram and electrical parameters of the meter and save it in a folder in the computer for the report.</li>
+</ul>
+<li>Verify and ensure non of the symbols display on the LCD display blinks.</li>
+<li>Carry out the LCD test and confirm all the display segments and annunciator icons are lit.</li>
+<li>Verify the functionality of the metering components(meter and CT) by testing the transformation ratio of the CT. Measure the primary currents of the CT using <strong>Current clamp</strong> and the secondary currents using the meter(with the help of the ACE pilot software).</li>
+<li>Compare the result obtained at the end of the measurement with the ratio found on the CT plate while taking into account a tolerance of ±5%.</li>
+<li>Verify and ensure that the MODEM is powered, and is communicating with the meter.</li>
+<li>Close the plastic cover of the meter terminals and seal the screws if need be.</li>
+<li>logout of the <strong> ACE pilot enabled PC</strong> and unplug the optical cable from the meter.</li>
+<li>Close the cover of the infrared communication port.</li>
+<li>Wait for 10 to 15 minutes and check if the TER values have incremented from their initial values.</li>
+<li>Check the maximum demand value is consistent with the applied load.</li>
+<li>Assemble together all the tools and materials, and evacuate the site.</li>
+<li>Prepare an end of intervention report.</li>
+<li>Save the report in a safe place for future referencing.</li>
+<p>For more information on energy meters, check out at:<a href="https://desmond-zeh.github.io/zoambosezeh.github.io/"><strong>Instrument transformers for metering systems</strong></a>
+</ol>
+<p><strong>NOTE</strong></p>
+<ul>
+<li>The current transformers suitable for metering are measurement transformers with an accuracy class of 0.2-to-1, and suitable burdens.</li>
+<li>The single line diagram on how the meter and the current transformers are to be connected to each other is usually found on a paper slit mounted behind the meter's terminal plastic cover.</li>
+<li>Meters should be installed and configured only be <strong>well qaulified technicians</strong>.</li>
+</ul>
+<p><stong><spam style="color:brown">DESMOND ZEH</spam></strong></p>
+<h5>Hello guys!</h5>
+<button>Change User</button>
+<script src="scripts/main.js"></script>
+</body>
+</html>
