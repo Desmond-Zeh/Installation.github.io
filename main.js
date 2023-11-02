@@ -2,7 +2,7 @@
 
 let mydoc = document.getElementById("myDoc");
 mydoc.onclick = () =>{
-window.location.replace("https://desmond-zeh.github.io/Des.github.io/","_blank");
+window.location.replace("https://desmond-zeh.github.io/document.github.io/","_blank");
 };
  let myhom = document.getElementById("home");
 myhom.onclick = () =>{
@@ -11,7 +11,7 @@ window.location.replace("https://desmond-zeh.github.io/Zeh-home.github.io/", "_b
 
 let mydown = document.getElementById("down");
 mydown.onclick = () =>{
-window.location.replace("https://desmond-zeh.github.io/Des.github.io/");
+window.location.replace("");
 };
  let myabout = document.getElementById("about");
 myabout.onclick = () =>{
